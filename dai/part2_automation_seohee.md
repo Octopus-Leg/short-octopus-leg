@@ -80,27 +80,27 @@
 
   - http://localhost:5678 로 접속
 
-    <img src="./img/part2_2.png" width=600px>
+    <img src="./img/part2_2.png" width=750px>
 
   - 간단한 워크플로우 설계
 
-    <img src="./img/part2_3.png" width=500px>
+    <img src="./img/part2_3.png" width=600px>
 
     - Schedule Trigger 노드는 지정한 시간이나 주기마다 워크플로우를 실행한다.
     - Google Calendar API와 연동해 개인 일정을 가져오도록 구성했다.
 
-    <img src="./img/part2_4.png" width=500px>
+    <img src="./img/part2_4.png" width=750px>
 
   - 이제 이 데이터를 Discord로 전송해보자.
 
-    <img src="./img/part2_5.png" width=500px>
+    <img src="./img/part2_5.png" width=600px>
 
     - Code 노드에서는 가져온 일정을 Discord에 출력하기 좋은 형태로 가공한다.
     - HTTP Request 노드에서는 가공된 데이터를 Discord 웹훅으로 전송한다.
 
     - Discord 출력 결과
 
-    <img src="./img/part2_6.png" width=500px>
+    <img src="./img/part2_6.png" width=600px>
   - 이로써 n8n을 활용해 구글 캘린더의 일정을 가져와 매일 아침에 알림을 주는 자동화를 실습해봤다.
   
 ### 참고 자료
