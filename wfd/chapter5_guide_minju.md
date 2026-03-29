@@ -82,7 +82,7 @@
 | 구분 | 예시 |
 |---|---|
 | 잘못된 표기 | 경계 문구 |
-| 올바른 표기 | boundary term, 바운더리 텀, 경계 문구^boundary\ term^ |
+| 올바른 표기 | boundary term, 바운더리 텀, 경계 문구(boundary term) |
 
 ### 객관적 묘사와 주관적 묘사 둘 다 하자
 
